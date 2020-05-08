@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: aqua;
+}
+
+.encabezado{
+    background-color: lightgreen;
+    position: fixed;
+    width: 100%;
+}
+
+.hotel{
+    
+    text-align: center;
+    font-size: 2em;
+    padding: 15px;
+    margin: 0;
+}
+
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item{
+    line-height: 3;
+}
+
+.main-menu__link{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
+
+
