@@ -38,13 +38,12 @@ nav{
     text-decoration: none;
     font-size: 1.2em;
 }
-img{
-    width: 1349px;
-    height: 450px;
+.img_menu{
+    width: 102vw;
+    height: 30vw;
 }
 .container{
-    width: 1349px;
-    margin: 30px auto;
+    width: 102vw;
     overflow: hidden;
 }
 .container ul{
@@ -54,14 +53,14 @@ img{
     animation: slide 10s infinite alternate;
 }
 @keyframes slide{
-    0% {margin-left: 0px;}
-    20%{margin-left: 0px;}
-    25%{margin-left: -1349px;}
-    45%{margin-left: -1349px;}
-    50%{margin-left: -2698px;}
-    70%{margin-left: -2698px;}
-    75%{margin-left: -4047px;}
-    100%{margin-left: -4047px;}
+    0% {margin-left: 0vw;}
+    20%{margin-left: 0vw;}
+    25%{margin-left: -102vw;}
+    45%{margin-left: -102vw;}
+    50%{margin-left: -204vw}
+    70%{margin-left: -204vw;}
+    75%{margin-left: -306vw;}
+    100%{margin-left: -306vw;}
 }
 
 .contenedor{
