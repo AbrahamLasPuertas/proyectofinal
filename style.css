@@ -39,11 +39,11 @@ nav{
     font-size: 1.2em;
 }
 .img_menu{
-    width: 102vw;
+    width: 98.7vw;
     height: 30vw;
 }
 .container{
-    width: 102vw;
+    width: 98.7vw;
     overflow: hidden;
 }
 .container ul{
@@ -55,12 +55,12 @@ nav{
 @keyframes slide{
     0% {margin-left: 0vw;}
     20%{margin-left: 0vw;}
-    25%{margin-left: -102vw;}
-    45%{margin-left: -102vw;}
-    50%{margin-left: -204vw}
-    70%{margin-left: -204vw;}
-    75%{margin-left: -306vw;}
-    100%{margin-left: -306vw;}
+    25%{margin-left: -98.7vw;}
+    45%{margin-left: -98.7vw;}
+    50%{margin-left: -197.4vw}
+    70%{margin-left: -197.4vw;}
+    75%{margin-left: -296.1vw;}
+    100%{margin-left: -296.1vw;}
 }
 
 .contenedor{
