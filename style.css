@@ -10,12 +10,11 @@ nav{
 
 .encabezado{
     background-color: lightgreen;
-    position: fixed;
+    position: relative;
     width: 100%;
 }
 
-.hotel{
-    
+.hotel{ 
     text-align: center;
     font-size: 2em;
     padding: 15px;
@@ -39,7 +38,31 @@ nav{
     text-decoration: none;
     font-size: 1.2em;
 }
-
+img{
+    width: 1349px;
+    height: 450px;
+}
+.container{
+    width: 1349px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.container ul{
+    list-style: none;
+    width: 16000px;
+    display: flex;
+    animation: slide 10s infinite alternate;
+}
+@keyframes slide{
+    0% {margin-left: 0px;}
+    20%{margin-left: 0px;}
+    25%{margin-left: -1349px;}
+    45%{margin-left: -1349px;}
+    50%{margin-left: -2698px;}
+    70%{margin-left: -2698px;}
+    75%{margin-left: -4047px;}
+    100%{margin-left: -4047px;}
+}
 
 
 
