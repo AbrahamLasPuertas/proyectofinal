@@ -145,3 +145,58 @@ nav{
     bottom: 0;
     left: 0;
 }
+@media screen and (max-width:1000px){
+    .contenedor{
+        width: 810px;
+        height: 540px;
+       
+    }
+    [class^=box]{
+        width: 267px;
+        height: 177px;
+    }
+}
+@media screen and (max-width:900px){
+    .contenedor{
+        width: 720px;
+        height: 480px;
+       
+    }
+    [class^=box]{
+        width: 237px;
+        height: 157px;
+    }
+}
+@media screen and (max-width:800px){
+    .contenedor{
+        width: 630px;
+        height: 420px;
+       
+    }
+    [class^=box]{
+        width: 207px;
+        height: 137px;
+    }
+}
+@media screen and (max-width:700px){
+    .contenedor{
+        width: 540px;
+        height: 360px;
+       
+    }
+    [class^=box]{
+        width: 177px;
+        height: 117px;
+    }
+}
+@media screen and (max-width:600px){
+    .contenedor{
+        width: 450px;
+        height: 300px;
+       
+    }
+    [class^=box]{
+        width: 147px;
+        height: 97px;
+    }
+}
