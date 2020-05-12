@@ -41,37 +41,19 @@ nav{
     font-size: 1.2em;
 }
 .img_menu{
-    width: 98vw;
+    width: 98.7vw;
     height: 30vw;
 }
 .container{
-    margin-left: auto;
-    margin-right: auto;
-    width: 98vw;
+    width: 98.7vw;
     overflow: hidden;
 }
 .container ul{
     list-style: none;
-<<<<<<< HEAD
-    display: flex;
-    animation: slide 10s infinite alternate;
-}
-@keyframes slide{
-    0% {margin-left: 0vw;}
-    20%{margin-left: 0vw;}
-    25%{margin-left: -98vw;}
-    45%{margin-left: -98vw;}
-    50%{margin-left: -196vw}
-    70%{margin-left: -196vw;}
-    75%{margin-left: -294vw;}
-    100%{margin-left: -294vw;}
-}
-=======
     width: 100vw;
     display: flex;
     animation: slide 10s infinite alternate;
 }
-<<<<<<< HEAD
 @keyframes slide{
     0% {margin-left: 0vw;}
     20%{margin-left: 0vw;}
@@ -82,9 +64,6 @@ nav{
     75%{margin-left: -296.1vw;}
     100%{margin-left: -296.1vw;}
 }
-=======
->>>>>>> 821c237c462d5d2b38cf1b20998994f926846948
->>>>>>> 645e6dc21f9815c9e33573293f47bb820e82c996
 
 /*Menu en pantalla*/
 .contenedor{
