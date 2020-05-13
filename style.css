@@ -68,15 +68,19 @@ nav{
 }
 
 /* Bienvenida*/
+main{background-color:rgba(232, 160, 26, 0.600);}
 .bienvenida{
     text-align: center;
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
+    color: #2C557A;
 }
 .contenido{
     font-size: 1em;
     text-align: center;
     padding: 1em;
+    font-family: monospace;
+    color: #2C557A;
 }
 
 /*Menu en pantalla*/
@@ -95,6 +99,9 @@ nav{
     width: 297px;
     height: 197px;
     text-align: center;
+    color: #2C557A;
+    font-family: monospace;
+    font-size: 1.5em;
 }
 
 .box1{
@@ -145,7 +152,7 @@ nav{
 .acomodo{
     margin-top: 25px;
     width: 100%;
-    border: red solid 3px;
+    background-color: #EB8900;
     display: grid;
     grid-template-areas:'foto titulos titulos'
                         'foto descripcion descripcion'
@@ -165,18 +172,22 @@ nav{
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
     grid-area: titulos;
+
+    color:#2C557A;
 }
 .descripcion{
     font-size: 1em;
     text-align: center;
     padding: 1em;
     grid-area: descripcion;
+    font-family: monospace;
+    color:#2C557A;
 }
 
 .acomodo2{
     margin-top: 25px;
     width: 100%;
-    border:green solid 3px;
+    background-color: #EB8900;
     display: grid;
     grid-template-areas:'titulos titulos foto'
                         'descripcion descripcion foto'
@@ -195,12 +206,16 @@ nav{
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
     grid-area: titulos;
+    
+    color:#2C557A;
 }
 .descripcion2{
     font-size: 1em;
     text-align: center;
     padding: 1em;
     grid-area: descripcion;
+    font-family: monospace;
+    color:#2C557A
 }
 
 /*Pie de pagina*/
