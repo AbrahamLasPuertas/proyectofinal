@@ -43,28 +43,30 @@ nav{
     color:#2C557A
 }
 .img_menu{
-    width: 98.7vw;
-    height: 30vw;
+    width: 97.8vw;
+    height: 25vw;
 }
 .container{
-    width: 98.7vw;
+    height: 25vw;
+    width: 95vw;
     overflow: hidden;
+    margin:auto;
 }
 .container ul{
     list-style: none;
-    width: 100vw;
+    width: 1000vw;
     display: flex;
     animation: slide 10s infinite alternate;
 }
 @keyframes slide{
     0% {margin-left: 0vw;}
     20%{margin-left: 0vw;}
-    25%{margin-left: -98.7vw;}
-    45%{margin-left: -98.7vw;}
-    50%{margin-left: -197.4vw}
-    70%{margin-left: -197.4vw;}
-    75%{margin-left: -296.1vw;}
-    100%{margin-left: -296.1vw;}
+    25%{margin-left: -97.8vw;}
+    45%{margin-left: -97.8vw;}
+    50%{margin-left: -195.6vw}
+    70%{margin-left: -195.6vw;}
+    75%{margin-left: -293.4vw;}
+    100%{margin-left: -293.4vw;}
 }
 
 /* Bienvenida*/
@@ -219,33 +221,61 @@ main{background-color:rgba(232, 160, 26, 0.600);}
 }
 
 /*Pie de pagina*/
-footer{
-    margin-top: 25px;
-}
 
 .container_footer{
-    height: 15vw;
+    margin-top: 25px;
+    position: relative;
     width: 100%;
-    color: white;
+    height: 140px;
 }
 .column1{
-    height: 80%;
     width: 60%;
+    height: 100%;
     float: left;
-    background-color: #202020;
+    background-color:#2C557A;
 }
 .column2{
-    height: 80%;
     width: 40%;
+    height: 100%;
     float: right;
+    background-color:#2C557A;
+    color: rosybrown;
+}
+.titulo_footer, .titulo_footer2{
+    font-size: 25px;
+    color: white;
+}
+.decoracion2{
+    margin-left: 10px;
+}
+.decoracion3{
+    margin-left: 10px;
+}
+.redes, .contacto{
+    display: flex;
+}
+.redes{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.decoracion, .decoracion2, .decoracion3{
+    text-decoration:none;
+    color: rosybrown;
+}
+.decoracion, .decoracion2, .decoracion3{
+    height: 30px;
+    width: 30px;
+}
+footer{
     background-color: #202020;
+    width: 100%;
+    height: 50px;
 }
 .column3{
-    height: 20%;
-    width: 100%;
-    float: left;
-    background-color: #101010;
+    font-size: 17px;
+    color: rosybrown;
 }
+
 
 /*Ajuste de panatalla*/
 
