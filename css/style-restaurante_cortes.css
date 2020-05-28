@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* cabezera */
+header{
+	height: 20%;
+	width: 100%;
+	background-color: #2C557A;
+}
+.linea{
+	width: 100%;
+	height: 30px;
+	background-color: #E8A01A;
+}
+.hotel{ 
+    text-align: left;
+    font-size: 4em;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* cuerpo */
+a{
+	text-decoration: none;
+}
+main{
+	text-align:center;
+	height: 850px;
+	width: 100%;
+	background-color: rgba(232, 160, 26, 0.6);
+}
+.tabla2{
+	margin:auto;
+}
+table, td, tr{
+    margin:auto;
+    border: solid transparent 1vw;
+    border-collapse:collapse;
+    text-align:center;
+}
+.tabla2 .img_menu:hover{
+    transform: scale(1.06);
+    transition: 0.3s;
+}
+.titulo_alitas{
+	font-family: arial black;
+	font-size: 15px;
+	color: #366596;
+}
+.menu_alitas{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.img_menu{
+    height: 13vw;
+    width: 20vw;
+}
+.redireccion{
+	font-family: arial black;
+	text-align: center;
+}
+.titulo{
+	font-size: 40px;
+    font-family: arial black;
+    color:#703e23;
+    text-align:center;
+}
+.subtitulo{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+/* Pie de pagina */
+footer{
+    background-color: #202020;
+    width: 100%;
+    height: 20px;
+}
+.column3{
+    font-size: 17px;
+    color: rosybrown;
+    text-align: center;
+}
