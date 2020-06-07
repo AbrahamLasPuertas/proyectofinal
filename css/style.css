@@ -5,6 +5,19 @@
 }
 
 /*Encabezado*/
+.registro{
+    text-align: right;
+}
+.reg{
+    margin: 2vw;
+    text-decoration: none;
+    font-size: 25px;
+    color: #E8A01A;
+    background-color: black;    
+}
+.reg:hover{
+    color: white;
+}
 .encabezado{
     background-color:#2C557A;
     position: relative;
@@ -53,6 +66,18 @@ nav{
 .img_menu{
     width: 97.8vw;
     height: 25vw;
+}
+.video{
+    margin-top: 25px;
+    width: 100%;
+    height: 45vw;
+    background-color: #2C557A;
+}
+.video_index_link{
+    margin-top: 2.5vw;
+    margin-left: 4vw;
+    width: 90vw;
+    height: 40vw;
 }
 .container{
     height: 25vw;
@@ -249,7 +274,6 @@ main{background-color:rgba(232, 160, 26, 0.600);}
 /*Pie de pagina*/
 
 .container_footer{
-    
     position: relative;
     width: 100%;
     height: 140px;
