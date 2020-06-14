@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" type="image/jpg" href="../img_hotel/icono.jpg">
+	<link rel="stylesheet" type="text/css" href="../css/style-reservacion.css">
+	<title>Reservaciones | Naab Hotel</title>
+</head>
+<body>
+	<header class="encabezado">
+        <p class="hotel">Naab Hotel</p>
+        <div class="linea"></div>
+    </header>
+    <main class="cuerpo">
+    	<div class="container">
+    		<h1 class="titulo">RESERVACION<br><br></h1>
+			<form method="POST" action="../php/reservacion.php">
+				<div class="cont1">
+					<label class="parrafo">Correo electronico</label>
+					<input class="cuadrito" type="text" name="correo">
+				</div>
+				<div class="cont2">	
+					<label class="parrafo">Hospedados</label>
+					<input class="cuadrito" type="text" name="personas" placeholder="maximo 6" required><br>
+				</div>
+				<div class="cont3">
+					<label class="parrafo">Fecha de entrada</label>
+					<input class="cuadrito" type="date" name="entrada" required>
+				</div>
+				<div class="cont4">
+					<label class="parrafo">Fecha de salida</label>
+					<input class="cuadrito" type="date" name="salida" required><br>
+				</div>
+				<div class="cont5">
+					<label class="parrafo">Habitacion</label>
+					<select class="opciones" name="habitacion" required>
+						<option class="opcion" value="Junior">Junior</option>
+						<option class="opcion" value="Master">Master</option>
+						<option class="opcion" value="Senior">Senior</option>
+						<option class="opcion" value="Presidencial">Presidencial</option>
+					</select><br><br>
+				</div>
+				<button class="boton" type="submit">Reservar ahora</button>
+			</form>
+		</div>	
+	</main>
+	<footer>
+		<div class="column3">
+			<label>©2020 naab,inc.</label>
+		</div>
+	</footer>
+</body>
+</html>

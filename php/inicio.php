@@ -15,8 +15,12 @@
 		<p class="hotel">Naab Hotel</p>
 		<aside class="registro">
 			<?php
-				echo "<h1>bienvenido $usuario</h1>";
-				echo "<form action='salir.php'><button>salir</button></form>";	
+				if(!$usuario){
+					header("location: ../index.html");
+				}else{
+					echo "<h1 style='color:white; font-size:20px; font-family: Arial, Helvetica, sans-serif;'>Bienvenido: $usuario</h1>";
+					echo "<form action='salir.php'><button style='background-color:#E8A01A; font-size:15px; color:#2C557A; margin-right:25px;'>cerrar sesion</button></form>";
+				}	
 			?>
 		</aside>
 		<nav>
@@ -24,7 +28,7 @@
 			  <li class="main-menu__item"><a class="main-menu__link" href="#">Habitaciones</a></li>
 			  <li class="main-menu__item"><a class="main-menu__link" href="../pags/restaurante.html">Restaurante</a></li>
 			  <li class="main-menu__item"><a class="main-menu__link" href="../pags/actividades.html">Actividades</a></li>
-			  <li class="main-menu__item"><a class="main-menu__link" href="#">Reservaciones</a></li>
+			  <li class="main-menu__item"><a class="main-menu__link" href="../pags/reservacion.html">Reservaciones</a></li>
 			</ul>
 		</nav>
 		<div class="container">
@@ -45,11 +49,11 @@
 			<a href="#"><div class="box1">Habitaciones1</div></a>
 			<a href="../pags/restaurante.html"><div class="box2">Restaurante2</div></a>
 			<a href="../pags/actividades.html"><div class="box3">Actividades3</div></a>
-			<a href="#"><div class="box4">Reservaciones4</div></a>
+			<a href="../pags/reservacion.html"><div class="box4">Reservaciones4</div></a>
 			<a href="#"><div class="box5">Experiencias5</div></a>
 			<a href="#"><div class="box6">Entretenim6</div></a>
 		</div>
-		<div class="video_link">
+		<div class="video">
 			<video class="video_index_link" src="../../proyectofinal/videos/NaabHotel.mp4" autoplay loop muted></video>
 		</div>
 		<article>

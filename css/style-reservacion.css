@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Encabezado*/
+.encabezado{
+    background-color:#2C557A;
+    position: relative;
+    width: 100%;
+}
+
+.hotel{ 
+    text-align: left;
+    font-size: 4em;
+    padding: 15px;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.linea{
+    width: 100%;
+    height: 30px;
+    background-color: #E8A01A;
+}
+/* Cuerpo */
+.cuerpo{
+    width: 100%;
+    height: 450px;
+}
+.container{
+    margin-top: 50px;
+    margin-left: 10vw;
+    width: 80%;
+    height: 450px;
+    background-color: #2C557A;
+    text-align: center;
+}
+.cont1{
+    height: 70px;
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.cont2{
+    height: 70px;
+    width: 50%;
+    float: right;
+}
+.cont3{
+    height: 70px;
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.cont4{
+    height: 70px;
+    width: 50%;
+    float: right;
+}
+.cont5{
+    height: 100px;
+    width: 100%;
+    float: left;
+}
+.titulo{
+    font-size: 40px;
+    color: #E8A01A;
+}
+.parrafo{
+    font-size: 22px;
+    color: #E8A01A;
+}
+.cuadrito{
+    font-size: 13px;
+    border-radius: 10px;
+}
+.opciones{
+    font-size: 15px;
+    background-color: white;
+    color: #2C557A;
+}
+.boton{
+    font-size: 20px;
+    background-color: #E8A01A;
+    color: #2C557A;
+}
+.boton:hover{
+    color: black;
+}
+
+/* Pie de Pagina*/
+footer{
+    margin-top: 50px;
+    background-color: #202020;
+    width: 100%;
+    height: 20px;
+}
+.column3{
+    font-size: 17px;
+    color: rosybrown;
+    text-align: center;
+}

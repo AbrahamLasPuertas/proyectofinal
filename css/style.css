@@ -12,11 +12,10 @@
     margin: 2vw;
     text-decoration: none;
     font-size: 25px;
-    color: #E8A01A;
-    background-color: black;    
+    color: white;   
 }
 .reg:hover{
-    color: white;
+    color: #E8A01A;
 }
 .encabezado{
     background-color:#2C557A;
