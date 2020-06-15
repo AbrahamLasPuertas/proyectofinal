@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Encabezado*/
+.encabezado{
+    background-color:#2C557A;
+    position: relative;
+    width: 100%;
+}
+
+.hotel{ 
+    text-align: left;
+    font-size: 4em;
+    padding: 15px;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Menu*/
+nav{
+    background-color: #E8A01A;
+}
+
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item{
+    line-height: 3;
+}
+.main-menu__link:hover{
+    color: white;
+}
+
+.main-menu__link{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: monospace;
+    color:#2C557A;  
+    display: block;
+    padding: px;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+}
+/* Contenido */
+main{background-color:rgba(232, 160, 26, 0.600);}
+.habitaciones{
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2C557A;
+}
+.contenido{
+    font-size: 1em;
+    text-align: center;
+    padding: 1em;
+    font-family: monospace;
+    color: #2C557A;
+}
+/* carrusel */
+
+.contenedor{
+    margin: auto;
+    width: 800px;
+    
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.slider{
+    position: relative;
+    width: 800px;
+    height: 450px;
+}
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+ul.slider li img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+ul.slider li:first-child{
+    opacity: 1;
+}
+ul.slider li:target{
+    opacity: 1;
+}
+.slide-menu{
+    text-align: center;
+    margin: 20px;
+}
+.slide-menu li{
+    display: inline-block;
+    text-align: center;
+}
+.slide-menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2C557A;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    border-radius: 100%;
+}
+/* Servicios */
+.tabla{
+    padding: 15px;
+    text-align: center;
+}
+.servicio{
+    font-size: 25px;
+    color:#703e23;
+    font-family: arial black;
+}
+table, td, tr{
+    margin: auto;
+    border: groove rgb(241, 132, 7) 4px;
+    border-collapse:collapse;
+}
+td{
+    color: #2C557A;
+    font-size: 1.3em;
+    font-family: arial;
+    padding: 8px;
+}
+/* Pie de pagina */
+footer{
+    background-color: #202020;
+    width: 100%;
+    height: 20px;
+}
+.column3{
+    font-size: 17px;
+    color: rosybrown;
+    text-align: center;
+}

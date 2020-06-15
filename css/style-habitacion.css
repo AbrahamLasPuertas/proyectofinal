@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Encabezado*/
+.encabezado{
+    background-color:#2C557A;
+    position: relative;
+    width: 100%;
+}
+
+.hotel{ 
+    text-align: left;
+    font-size: 4em;
+    padding: 15px;
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Menu*/
+nav{
+    background-color: #E8A01A;
+}
+
+.main-menu{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-menu__item{
+    line-height: 3;
+}
+.main-menu__link:hover{
+    color: white;
+}
+
+.main-menu__link{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: monospace;
+    color:#2C557A;  
+    display: block;
+    padding: px;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+}
+/* Contenido */
+main{background-color:rgba(232, 160, 26, 0.600);}
+.habitaciones{
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2C557A;
+}
+.contenido{
+    font-size: 1.3em;
+    text-align: center;
+    padding: 1em;
+    font-family: monospace;
+    color: #2C557A;
+}
+.acomodo{
+    margin-top: 25px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EB8900;
+    display: grid;
+    grid-template-areas:'foto titulos titulos'
+                        'foto contenido contenido'
+                        'foto contenido contenido'
+                        'foto contenido contenido';
+}
+.imagen__actividades{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    grid-area: foto;
+}
+.titulo{
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#2C557A;
+    grid-area: titulos;
+
+}
+.descripcion,tr{
+    font-size: 1.3em;
+    text-align: center;
+    padding: 1em;
+    font-family: monospace;
+    color:#2C557A;
+    grid-area: contenido;
+}
+/* Pie de pagina */
+footer{
+    background-color: #202020;
+    width: 100%;
+    height: 20px;
+}
+.column3{
+    font-size: 17px;
+    color: rosybrown;
+    text-align: center;
+}

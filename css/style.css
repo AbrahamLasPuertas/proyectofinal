@@ -110,7 +110,7 @@ main{background-color:rgba(232, 160, 26, 0.600);}
     color: #2C557A;
 }
 .contenido{
-    font-size: 1em;
+    font-size: 1.3em;
     text-align: center;
     padding: 1em;
     font-family: monospace;
@@ -226,7 +226,7 @@ main{background-color:rgba(232, 160, 26, 0.600);}
     color:#2C557A;
 }
 .descripcion{
-    font-size: 1em;
+    font-size: 1.3em;
     text-align: center;
     padding: 1em;
     grid-area: descripcion;
@@ -262,7 +262,7 @@ main{background-color:rgba(232, 160, 26, 0.600);}
     color:#2C557A;
 }
 .descripcion2{
-    font-size: 1em;
+    font-size: 1.3em;
     text-align: center;
     padding: 1em;
     grid-area: descripcion;
