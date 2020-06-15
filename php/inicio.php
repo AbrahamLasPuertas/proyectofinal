@@ -25,7 +25,7 @@
 		</aside>
 		<nav>
 			<ul class="main-menu">
-			  <li class="main-menu__item"><a class="main-menu__link" href="#">Habitaciones</a></li>
+			  <li class="main-menu__item"><a class="main-menu__link" href="../pags/habitacion.html">Habitaciones</a></li>
 			  <li class="main-menu__item"><a class="main-menu__link" href="../pags/restaurante.html">Restaurante</a></li>
 			  <li class="main-menu__item"><a class="main-menu__link" href="../pags/actividades.html">Actividades</a></li>
 			  <li class="main-menu__item"><a class="main-menu__link" href="../pags/reservacion.html">Reservaciones</a></li>
@@ -46,12 +46,12 @@
 			lique facere et consectetur harum fugiat vero nulla!
 		</p>
 		<div class="contenedor">
-			<a href="#"><div class="box1">Habitaciones1</div></a>
+			<a href="../pags/habitacion.html"><div class="box1">Habitaciones1</div></a>
 			<a href="../pags/restaurante.html"><div class="box2">Restaurante2</div></a>
 			<a href="../pags/actividades.html"><div class="box3">Actividades3</div></a>
 			<a href="../pags/reservacion.html"><div class="box4">Reservaciones4</div></a>
-			<a href="#"><div class="box5">Experiencias5</div></a>
-			<a href="#"><div class="box6">Entretenim6</div></a>
+			<a href="../pags/experiencias.html"><div class="box5">Experiencias5</div></a>
+			<a href="../pags/entretenimiento.html"><div class="box6">Entretenim6</div></a>
 		</div>
 		<div class="video">
 			<video class="video_index_link" src="../../proyectofinal/videos/NaabHotel.mp4" autoplay loop muted></video>

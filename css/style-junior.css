@@ -21,6 +21,18 @@
 }
 
 /*Menu*/
+.linea{
+    width: 100%;
+    height: 30px;
+    background-color: #E8A01A;
+}
+.cabeza{
+    text-decoration: none;
+    color: white;
+}
+.cabeza:hover{
+    color: lightblue;
+}
 nav{
     background-color: #E8A01A;
 }
