@@ -102,7 +102,7 @@ main{background-color:rgba(232, 160, 26, 0.600);}
 
 }
 .descripcion,tr{
-    font-size: 1em;
+    font-size: 1.3em;
     text-align: center;
     padding: 1em;
     font-family: monospace;
@@ -138,7 +138,7 @@ main{background-color:rgba(232, 160, 26, 0.600);}
 
 }
 .descripcion2{
-    font-size: 1em;
+    font-size: 1.3em;
     text-align: center;
     padding: 1em;
     font-family: monospace;
@@ -155,4 +155,47 @@ footer{
     font-size: 17px;
     color: rosybrown;
     text-align: center;
+}
+
+/*Ajuste de panatalla*/
+
+@media screen and (max-width:1000px){
+    .imagen__actividades{
+        width: 360px;
+        height: 270px;
+    }
+    .imagen__actividades2{
+        width: 360px;
+        height: 270px;
+    }
+}
+@media screen and (max-width:900px){
+    .imagen__actividades{
+        width: 320px;
+        height: 240px;
+    }
+    .imagen__actividades2{
+        width: 320px;
+        height: 240px;
+    }
+}
+@media screen and (max-width:800px){
+    .imagen__actividades{
+        width: 280px;
+        height: 210px;
+    }
+    .imagen__actividades2{
+        width: 280px;
+        height: 210px;
+    }
+}
+@media screen and (max-width:700px){
+    .imagen__actividades{
+        width: 240px;
+        height: 180px;
+    }
+    .imagen__actividades2{
+        width: 240px;
+        height: 180px;
+    }
 }
