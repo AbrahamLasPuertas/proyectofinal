@@ -119,4 +119,29 @@ footer{
     font-size: 17px;
     color: rosybrown;
     text-align: center;
+}/*Ajuste de panatalla*/
+
+@media screen and (max-width:1000px){
+    .imagen__actividades{
+        width: 360px;
+        height: 270px;
+    }
+}
+@media screen and (max-width:900px){
+    .imagen__actividades{
+        width: 320px;
+        height: 240px;
+    }
+}
+@media screen and (max-width:800px){
+    .imagen__actividades{
+        width: 280px;
+        height: 210px;
+    }
+}
+@media screen and (max-width:700px){
+    .imagen__actividades{
+        width: 240px;
+        height: 180px;
+    }
 }

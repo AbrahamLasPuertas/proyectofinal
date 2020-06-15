@@ -131,10 +131,6 @@ main{background-color:rgba(232, 160, 26, 0.600);}
 [class^=box]{
     width: 290px;
     height: 190px;
-    text-align: center;
-    color: #2C557A;
-    font-family: monospace;
-    font-size: 1.5em;
 }
 [class^=box]:hover{
     transform: scale(1.06);
@@ -143,7 +139,7 @@ main{background-color:rgba(232, 160, 26, 0.600);}
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(../img_hotel/habitaciones.jpeg);
+    background-image: url(../img_hotel/menu1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -154,7 +150,7 @@ main{background-color:rgba(232, 160, 26, 0.600);}
     right: 0;
     left: 0;
     margin: auto;
-    background-image: url(../img_hotel/alitas.jpg);
+    background-image: url(../img_hotel/menu2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -163,7 +159,7 @@ main{background-color:rgba(232, 160, 26, 0.600);}
     top: 0;
     right: 0;
     position: absolute;
-    background-image: url(../img_hotel/mini1.jpg);
+    background-image: url(../img_hotel/menu3.png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -172,7 +168,7 @@ main{background-color:rgba(232, 160, 26, 0.600);}
     position: absolute;
     bottom: 0;
     left: 0;
-    background-image: url(../img_hotel/menu4.jpg);
+    background-image: url(../img_hotel/menu4.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -182,7 +178,7 @@ main{background-color:rgba(232, 160, 26, 0.600);}
     left: 0;
     bottom: 0;
     margin: auto;
-    background-image: url(../img_hotel/menu5.jpg);
+    background-image: url(../img_hotel/menu5.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -190,7 +186,7 @@ main{background-color:rgba(232, 160, 26, 0.600);}
     position: absolute;
     bottom: 0;
     right: 0;
-    background-image: url(../img_hotel/menu6.jpg);
+    background-image: url(../img_hotel/menu6.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
